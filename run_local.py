@@ -1,3 +1,5 @@
+import os
+os.environ["FAIL_DNS_LOG_BUCKET"] = "cr-resolver-test"
 import json
 import lambda_function
 
